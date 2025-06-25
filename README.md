@@ -52,3 +52,5 @@ Expected outputs:
 Visual representation of the Bayesian Network was created using The Bayesian Network structure learned from the data:
 
 ![Bayesian Network Structure](visualization.png)
+![Test output](test.png)
+

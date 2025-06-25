@@ -22,8 +22,8 @@ result1 = inference.query(variables=["target"], evidence={"age": 70})
 print("\nProbability of heart disease given age = 70:\n", result1)
 
 # Cholesterol distribution given heart disease is present
-result2 = inference.query(variables=["chol"], evidence={"target": 1})
-print("\nCholesterol distribution given target=1:\n", result2)
+# result2 = inference.query(variables=["chol"], evidence={"target": 1})
+# print("\nCholesterol distribution given target=1:\n", result2)
 
 # Heart disease prediction given age and fbs
 result3 = inference.query(variables=["target"], evidence={"age": 69, "fbs": 1})
